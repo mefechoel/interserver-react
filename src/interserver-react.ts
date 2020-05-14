@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef, SetStateAction, Dispatch } from "react";
 import interserver, { InterserverOptions } from "interserver";
 
+export { InterserverOptions };
+
 /**
  * `isIntersecting` is `true` if the container is intersecting the viewport.
  * `setRef` is the function to pass to the ref prop of the container component.
