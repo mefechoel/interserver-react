@@ -11,7 +11,7 @@ function createConfig({ file, format, minify = false }) {
     output: {
       file,
       format,
-      ...(isUmd ? { name: "Interserver", exports: "named" } : {}),
+      ...(isUmd ? { name: "InterserverReact", exports: "named" } : {}),
     },
     external: ["react"],
     plugins: [resolve(), commonjs(), typescript(), minify && terser()],
