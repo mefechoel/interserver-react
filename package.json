@@ -1,6 +1,6 @@
 {
   "name": "interserver-react",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "IntersectionObserver simplified",
   "main": "dist/interserver-react.umd.js",
   "unpkg": "dist/interserver-react.umd.min.js",
